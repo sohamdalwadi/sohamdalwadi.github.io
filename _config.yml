@@ -1,6 +1,6 @@
 # Site
 repository: sproogen/resume-theme
-favicon: images/favicon.ico
+favicon: images/favicon.png
 
 # Content configuration version
 version: 2
@@ -15,13 +15,13 @@ website: sohamdalwadi.github.io
 darkmode: false
 
 # Social links
-twitter_username: sohamdalwadi
+# twitter_username: sohamdalwadi
 github_username:  sohamdalwadi
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: sohamdalwadi
+instagram_username: soham.dalwadi
 linkedin_username: sohamdalwadi
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -169,10 +169,10 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      - Watching Movies, Shows & Series
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Code contest
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 # Footer
 footer_show_references: true
