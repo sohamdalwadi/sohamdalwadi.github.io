@@ -30,10 +30,10 @@ linkedin_username: sohamdalwadi
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,57 +48,122 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I'm Soham Dalwadi, a senior software engineer with expertise in C++. I specialize in the development of software solutions for car infotainment, telematic systems, and voice recognition. With a focus on the automotive industry, I have collaborated with leading OEMs, leveraging my skills to create innovative and seamless experiences for drivers.
 
   I am most skilled in: <mark>C++</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: top-middle
+#        title: Super awesome project
+#        link: github.com/sproogen
+#        # link_text: Project Website
+#        additional_links:
+#          - title:  sproogen/modern-resume-theme
+#            icon: fab fa-github
+#            url: github.com/sproogen/modern-resume-theme
+#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#          #   icon: fab fa-github
+#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#        quote: >
+#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#        description: | # this will include new lines to allow paragraphs
+#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Cerence Inc.
+        sub_title: Senior Software Engineer
+        caption: June 2021 - Present
+        description: |
+          - Contribute to the development of the CDFW (Automotive Grade Embedded Platform) at Cerence Inc., a leading provider of in-car AI and voice-enabled solutions.
+          - Work on the CSDK (DIY SDK Offering) to provide developers with the necessary tools and resources to build their own voice-enabled applications.
+          - Develop and enhance features of the CDFW and CSDK frameworks using C++.
+        link: cerence.com
+
+      - layout: left
+        title: KPIT
+        sub_title: Technical Lead
+        caption: January 2020 - June 2021
+        description: |
+          - Lead a team of software engineers as a technical lead, overseeing the design, development, and delivery of software solutions.
+          - Worked on the HMI Infotainment system for the CY21 project, focusing on Voice Recognition, Bluetooth, and User Profile modules.
+          - Contributed to the reverse engineering of the current design and code, as well as defect triage and resolution.
+          - Utilized C++ for the development of software solutions.
+        link: kpit.com
+
+      - layout: left
+        title: KPIT
+        sub_title: Sr. Software Engineer
+        caption: April 2018 - January 2020
+        description: |
+          - Worked as a senior software engineer on the MIB3 HMI Infotainment project, utilizing the Luxoft Populus tool for HMI design and Qt/C++ for middleware code.
+          - Led the development of the HMI-Framework Feature, including work on skins, language translation, screen transition, speller widget, list widget, and global widget configuration page.
+          - Planned and assigned tasks, designed and reviewed code, provided technical support, and estimated tasks.
+          - Utilized previous knowledge of the Keyword-driven framework to lead a team in designing the TAF (Test Automation Framework) in C .NET.
+          - Visited Germany and Ukraine for discussions and understanding of HMI features.
+        link: kpit.com
+
+      - layout: left
+        title: KPIT
+        sub_title: Software Engineer
+        caption: April 2016 - April 2018
+        description: |
+          - Worked as a software engineer on the VP2 HMI development project for car infotainment, focusing on Voice Recognition, Climate, Apps Drawer, and Settings modules.
+          - Used QML for UI/UX screens and C++/Qt core for HMI back-end logic.
+          - Contributed to bug fixing, code optimization, and development of a Python script to measure KPI from build logs and identify any crashes or errors in the QML or unavailability of resources at runtime.
+        link: kpit.com
+
+      - layout: left
+        title: KPIT
+        sub_title: Trainee
+        caption: February 2015 - April 2016
+        description: |
+          - Worked as a trainee software engineer, gaining hands-on experience in software development and learning various programming languages and tools.
+        link: kpit.com
+  
+  - title: Graduate Internship # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+        title: Institute For Plasma Research
+        sub_title: Graduate Intern
+        caption: October 2014 - February 2015
+        description: |
+          - Worked as a graduate intern at the Institute For Plasma Research, gaining experience in microwave measurements of nuclear fission for developing electricity.
+          - Currently involved in the proof-of-concept phase of the project.
+        link: ipr.res.in
+    
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Gujarat Technological University
+        caption: 2011 - 2014
+        sub_title: Bachelor's Degree in Electronics and Communication
+        description: |
+          - Completed a bachelor's degree in electronics and communication at the Government Engineering College, Sector 28, Gandhinagar, which is affiliated with Gujarat Technological University.
+          - CGPA: 8.62
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: Gujarat Technological University
+        caption: 2008 - 2011
+        sub_title: Diploma in Electronics and Communication
+        description: |
+          - Completed a diploma in electronics and communication at the Excel Institute of Diploma Studies, which is affiliated with Gujarat Technological University.
+          - CGPA: 9.53
+
+      - layout: left
+        title: Fatima Convent High School
+        caption: 1999 - 2008
+        sub_title: High School
+        description: |
+          - Completed high school at Fatima Convent High School.
+          - Percentage: 71.38%
 
   - title: A Little More About Me
     layout: text
@@ -108,9 +173,6 @@ content:
       - Gaming
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
