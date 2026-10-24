@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Soham Dalwadi
-title: Senior software engineer - C++ Expert
+title: Senior Software Engineer | Automotive Systems & Voice AI
 email: sohan.eceengg@gmail.com
 website: sohamdalwadi.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: sohamdalwadi
@@ -48,41 +48,70 @@ linkedin_username: sohamdalwadi
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Soham Dalwadi, a senior software engineer with expertise in C++. I specialize in the development of software solutions for car infotainment, telematic systems, and voice recognition. With a focus on the automotive industry, I have collaborated with leading OEMs, leveraging my skills to create innovative and seamless experiences for drivers.
+  I am a Senior Software Engineer with 11+ years of dedicated experience in the automotive software industry, specializing in Voice Recognition (Speech AI), in-vehicle infotainment, and emerging smart automotive domains.
 
-  I am most skilled in: <mark>C++</mark> and <mark>Eating Pizza</mark>
+  I believe great engineering comes from curiosity, humility, and steady craft. While my foundation is centered on systems engineering and automotive middleware with C and C++, I actively expand my horizons—exploring Qt desktop frameworks, native Android and Kotlin applications, and learning how next-generation Foresight systems can make vehicle intelligence more predictive and context-aware.
+
+  Core areas of focus: <mark>Modern C++</mark>, <mark>Voice AI & Speech Middleware</mark>, <mark>Foresight Systems</mark>, and <mark>Android (Kotlin)</mark>.
 
 content:
-#  - title: Projects # Title for the section
-#    layout: list # Type of content section (list/text)
-#    content:
-#      - layout: top-middle
-#        title: Super awesome project
-#        link: github.com/sproogen
-#        # link_text: Project Website
-#        additional_links:
-#          - title:  sproogen/modern-resume-theme
-#            icon: fab fa-github
-#            url: github.com/sproogen/modern-resume-theme
-#          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#          #   icon: fab fa-github
-#          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#        quote: >
-#          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-#        description: | # this will include new lines to allow paragraphs
-#          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Featured Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: BrainDrain
+        link: github.com/sohamdalwadi/BrainDrain
+        link_text: GitHub Repository
+        additional_links:
+          - title: sohamdalwadi/BrainDrain
+            icon: fab fa-github
+            url: github.com/sohamdalwadi/BrainDrain
+        description: |
+          A privacy-first, open-source Android digital wellbeing engine & short-form video counter built with native Kotlin and clean architecture.
+
+      - layout: top-middle
+        title: Pookie
+        link: github.com/sohamdalwadi/Pookie
+        link_text: GitHub Repository
+        additional_links:
+          - title: sohamdalwadi/Pookie
+            icon: fab fa-github
+            url: github.com/sohamdalwadi/Pookie
+        description: |
+          A room-based, turn-based companion mini-game app crafted for couples to connect, play, and spark conversations anywhere, anytime.
+
+      - layout: top-middle
+        title: QBIT
+        link: github.com/sohamdalwadi/QBIT
+        link_text: GitHub Repository
+        additional_links:
+          - title: sohamdalwadi/QBIT
+            icon: fab fa-github
+            url: github.com/sohamdalwadi/QBIT
+        description: |
+          An open-source ESP32-C3 desktop companion robot and personal IoT avatar exploration.
 
   - title: Experience
     layout: list
     content:
       - layout: left
+        title: BMW TechWorks India
+        sub_title: Senior Software Engineer
+        caption: November 2024 - Present
+        description: |
+          - Engineer next-generation automotive speech solutions and explore intelligent Foresight predictive technologies.
+          - Design robust, modular system architectures and middleware utilizing C++ and modern software engineering practices.
+          - Explore native Android and Kotlin frameworks to bridge low-level automotive services with modern application interfaces.
+        link: bmwgroup.com
+
+      - layout: left
         title: Cerence Inc.
         sub_title: Senior Software Engineer
-        caption: June 2021 - Present
+        caption: June 2021 - November 2024
         description: |
-          - Contribute to the development of the CDFW (Automotive Grade Embedded Platform) at Cerence Inc., a leading provider of in-car AI and voice-enabled solutions.
-          - Work on the CSDK (DIY SDK Offering) to provide developers with the necessary tools and resources to build their own voice-enabled applications.
-          - Develop and enhance features of the CDFW and CSDK frameworks using C++.
+          - Contributed to the development of CDFW (Automotive Grade Embedded Platform), delivering in-car AI and voice-enabled solutions.
+          - Worked on CSDK (DIY SDK Offering) to empower developers building their own voice-enabled applications.
+          - Developed and enhanced CDFW and CSDK platform components and middleware frameworks using C++.
         link: cerence.com
 
       - layout: left
