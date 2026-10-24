@@ -21,6 +21,10 @@ announcements:
 
 latest_posts:
   enabled: false
+
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 ### Hi there, I'm Soham Dalwadi 👋
