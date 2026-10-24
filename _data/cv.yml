@@ -1,0 +1,87 @@
+cv:
+  name: Soham Dalwadi
+  label: Senior Software Engineer
+  email: sohan.eceengg@gmail.com
+  location: Pune, India
+  image: assets/img/profile.png
+  summary: 11+ years of experience in automotive software engineering, specializing in Voice Recognition (Speech AI), in-vehicle infotainment, and predictive Foresight technologies.
+
+  social_networks:
+    - network: LinkedIn
+      username: sohamdalwadi
+    - network: GitHub
+      username: sohamdalwadi
+
+  sections:
+    Experience:
+      - company: BMW TechWorks India
+        position: Senior Software Engineer
+        location: Pune, India
+        start_date: "2024-11"
+        end_date: Present
+        summary: Engineering next-generation automotive speech solutions and exploring intelligent Foresight predictive domains.
+        highlights:
+          - "Architecting system middleware and modular vehicle components leveraging Modern C++."
+          - "Exploring native Android & Kotlin frameworks to bridge low-level automotive services with modern application interfaces."
+          - "Developing open-source side projects demonstrating clean architecture and system prototyping."
+
+      - company: Cerence Inc.
+        position: Senior Software Engineer
+        location: Pune, India
+        start_date: "2021-06"
+        end_date: "2024-11"
+        summary: Contributed to CDFW (Automotive Grade Embedded Platform) and CSDK (Developer SDK Offering) for in-car Voice AI.
+        highlights:
+          - "Engineered core C++ platform components powering mission-critical automotive voice assistants."
+          - "Enhanced dialog and middleware stacks for seamless in-cabin driver interactions."
+
+      - company: KPIT Technologies
+        position: Technical Lead / Senior Software Engineer
+        location: Pune, India
+        start_date: "2015-02"
+        end_date: "2021-06"
+        summary: Led development of automotive infotainment HMI and middleware solutions across CY21, MIB3, and VP2 OEM programs.
+        highlights:
+          - "Technical Lead for CY21 Voice Recognition, Bluetooth, and User Profile subsystems."
+          - "Developed MIB3 HMI-Framework features using Qt/C++ and Luxoft Populus (skins, speller widgets, screen transitions)."
+          - "Built VP2 HMI screens using QML and C++/Qt Core; created Python diagnostic scripts for build log KPI measurement."
+          - "Visited Germany and Ukraine for technical discussions and HMI feature architectural alignment."
+
+      - company: Institute For Plasma Research
+        position: Graduate Intern
+        location: Gandhinagar, Gujarat, India
+        start_date: "2014-10"
+        end_date: "2015-02"
+        summary: Conducted microwave measurements of nuclear fission for developing electricity during the proof-of-concept phase.
+
+    Education:
+      - institution: Gujarat Technological University
+        studyType: Bachelor's Degree in Electronics and Communication
+        location: Gandhinagar, India
+        start_date: "2011"
+        end_date: "2014"
+        score: "CGPA: 8.62"
+        highlights:
+          - "Government Engineering College, Sector 28, Gandhinagar."
+
+      - institution: Gujarat Technological University
+        studyType: Diploma in Electronics and Communication
+        location: Gujarat, India
+        start_date: "2008"
+        end_date: "2011"
+        score: "CGPA: 9.53"
+        highlights:
+          - "Excel Institute of Diploma Studies."
+
+    Skills:
+      - name: Core Languages
+        keywords: ["C", "Modern C++", "Kotlin", "Python", "Shell Scripting"]
+
+      - name: UI & Frameworks
+        keywords: ["Qt / QML", "Android SDK", "Jetpack Compose"]
+
+      - name: Automotive & Systems
+        keywords: ["Voice Recognition (Speech AI)", "Foresight Systems", "Infotainment", "CarPlay", "Android Auto"]
+
+      - name: Toolchain & Environments
+        keywords: ["CMake", "Docker", "Linux / Yocto", "Git", "CI/CD", "SonarQube"]
